@@ -22,13 +22,13 @@ public class NPCFollow : MonoBehaviour
             if(TargetDistance >= AllowedDistance)
             {
                 FollowSpeed = 0.1f;
-                TheNPC.GetComponent<Animation>().Play("Basic_Walk_01_Root");
+                TheNPC.GetComponent<Animation>().Play("Basic_Walk_03");
                 transform.position = Vector3.MoveTowards(transform.position, ThePlayer.transform.position, FollowSpeed);
             }
             else
             {
                 FollowSpeed = 0;
-                TheNPC.GetComponent<Animation>().Play("HumanoidIdle");
+                TheNPC.GetComponent<Animation>().Play("Basic_Walk_03");
             }
         }
         
