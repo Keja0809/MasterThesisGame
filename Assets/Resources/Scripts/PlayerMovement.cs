@@ -13,8 +13,18 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    private Animator anim;
+
     Vector3 velocity;
     bool isGrounded;
+
+
+    void Start ()
+    {
+        anim = GetComponent<Animator>();
+    }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -36,5 +46,14 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        if (x == 0)
+        {
+            anim.SetBool("isWalking", false);
+        }
+        else
+        {
+            anim.SetBool("isWalking", true);
+        }
     }
 }
