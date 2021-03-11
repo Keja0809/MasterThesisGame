@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (x == 0)
+        if (x == 0 && z == 0)
         {
             anim.SetBool("isWalking", false);
         }
@@ -55,5 +55,6 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("isWalking", true);
         }
+
     }
 }

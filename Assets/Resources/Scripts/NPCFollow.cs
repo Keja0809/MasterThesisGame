@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NPCFollow : MonoBehaviour
+
+
 {
 
     public GameObject ThePlayer;
@@ -11,10 +13,13 @@ public class NPCFollow : MonoBehaviour
     public GameObject TheNPC;
     public float FollowSpeed;
     public RaycastHit Shot;
+    private Animator anim;
 
     // Update is called once per frame
     void Update()
     {
+  
+
         transform.LookAt(ThePlayer.transform);
         if(Physics.Raycast(transform.position,transform.TransformDirection(Vector3.forward),out Shot))
         {
@@ -22,13 +27,13 @@ public class NPCFollow : MonoBehaviour
             if(TargetDistance >= AllowedDistance)
             {
                 FollowSpeed = 0.1f;
-                TheNPC.GetComponent<Animation>().Play("Basic_Walk_03");
+                TheNPC.GetComponent<Animator>().SetBool("isWalking", true);
                 transform.position = Vector3.MoveTowards(transform.position, ThePlayer.transform.position, FollowSpeed);
             }
             else
             {
                 FollowSpeed = 0;
-                TheNPC.GetComponent<Animation>().Play("Basic_Walk_03");
+                TheNPC.GetComponent<Animator>().SetBool("isWalking", false);
             }
         }
         
