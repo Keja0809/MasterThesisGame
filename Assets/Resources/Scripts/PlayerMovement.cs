@@ -18,6 +18,10 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    public void DeactivateNow()
+    {
+        enabled = false;
+    }
 
     void Start ()
     {
