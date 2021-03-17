@@ -1,0 +1,43 @@
+fileFormatVersion: 2
+guid: ef677c7cf9b0e144d8255682caef9b7c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Raleway
+  fontNames:
+  - Raleway
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 720f7a704c486c14087fb6d7cb320e06, type: 3}
+  - {fileID: 12800000, guid: 0f0c51a02ac753e4bbd44143a4a4ab2e, type: 3}
+  - {fileID: 12800000, guid: 683c9ba08769cdd4c8a302321d34e7f5, type: 3}
+  - {fileID: 12800000, guid: 311e6a9167a18654ca72f793642edf08, type: 3}
+  - {fileID: 12800000, guid: 53b707738a0e08c4698834cb5c4b6b0e, type: 3}
+  - {fileID: 12800000, guid: 62c14d35b4b495f4e87ebbfadb078d37, type: 3}
+  - {fileID: 12800000, guid: 9730ae4645a19e749902689c3c42279e, type: 3}
+  - {fileID: 12800000, guid: 8f965cb628cf13a44b63f86d46e38584, type: 3}
+  - {fileID: 12800000, guid: a802fb87d6a01144c8c3dd93ae6ef568, type: 3}
+  - {fileID: 12800000, guid: dcf879c9d3e040e48a63a64b0bf4eb53, type: 3}
+  - {fileID: 12800000, guid: b53484f905f52054083ed8b070b79441, type: 3}
+  - {fileID: 12800000, guid: fb751c1bfd6afbb45b8f91e2be7e1c72, type: 3}
+  - {fileID: 12800000, guid: 6527e82ba1af1d34cab86071dc868002, type: 3}
+  - {fileID: 12800000, guid: 4e0769dbd312df84c9610fac6e1bfc22, type: 3}
+  - {fileID: 12800000, guid: 94fddb3c4a89a2a4491bcc4e2ed5e61f, type: 3}
+  - {fileID: 12800000, guid: 60306e2d20ab35241ad59cc20505a0d9, type: 3}
+  - {fileID: 12800000, guid: d6cc415df35309842be4a22d177f0297, type: 3}
+  - {fileID: 12800000, guid: a97d5dbd87a2ae44a99dce0f7312ab66, type: 3}
+  - {fileID: 12800000, guid: fe7dc94e77b17e8449cb38f999cd57ff, type: 3}
+  - {fileID: 12800000, guid: 0aa767ef16c509b47b4c72cbecb99651, type: 3}
+  - {fileID: 12800000, guid: 0d51b5ff37ae74a49ad4495318a2e7f5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

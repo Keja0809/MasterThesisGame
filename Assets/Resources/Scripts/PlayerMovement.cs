@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
 
-        controller.Move(velocity * Time.deltaTime);
+        controller.Move(velocity * Time.deltaTime * 2);
 
         if (x == 0 && z == 0)
         {
