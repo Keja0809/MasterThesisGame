@@ -10,8 +10,8 @@ public class CameraLook : MonoBehaviour
 	public float sensitivity;
 	public Camera cam;
 
-	float rotY = 0f;
-	float rotX = 0f;
+	public float rotY = 0f;
+	public float rotX = 0f;
 
 
 
