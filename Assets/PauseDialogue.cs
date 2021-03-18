@@ -14,13 +14,13 @@ public class PauseDialogue : MonoBehaviour
 
     public void Resume()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1f;
         cameraScript.enabled = true;
     }
 
     public void Pause()
     {
-        Time.timeScale = 0;
+        Time.timeScale = 0f;
         cameraScript.enabled = false;
     }
 

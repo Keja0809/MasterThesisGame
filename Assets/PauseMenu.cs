@@ -37,6 +37,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         cameraScript.enabled = false;
+        Debug.Log("Pausing game...");
 
     }
 
