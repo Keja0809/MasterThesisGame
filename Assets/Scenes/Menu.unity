@@ -981,13 +981,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dieses Spiel ist Teil der Master Thesis von Kerstin Limberger.
-
-    Ziel
+  m_text: "Dieses Spiel ist Teil der Master Thesis\n von Kerstin Limberger.\nZiel
     dieses Spiels ist es anti-muslimischen Alltagsrassismus und die damit einhergehende
-    Hilflosigkeit der Betroffenen abzubilden.
-
-'
+    Hilflosigkeit der Betroffenen abzubilden.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 31455dc7e62d0bb43b32cfaec9c84a4d, type: 2}
   m_sharedMaterial: {fileID: 5701950298158104780, guid: 31455dc7e62d0bb43b32cfaec9c84a4d,
