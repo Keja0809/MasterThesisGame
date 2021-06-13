@@ -1,4 +1,4 @@
-# MasterThesisGame
+# Master Thesis Game
 
 This project is part of the master thesis of Kerstin Limberger.
 
